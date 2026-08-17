@@ -1,37 +1,24 @@
-# Dependencias
-node_modules/
-
-# Build generado por Webpack
-dist/
-
-# Archivos de entorno
-.env
-.env.*
-!.env.example
-
 # Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
-# Google Apps Script / clasp
-.clasp.json
+node_modules
+dist
+dist-ssr
+*.local
 
-# Sistema operativo
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-
-# Temporales
-*.tmp
-*.temp
-
-# Cobertura
-coverage/
-
-# Cache
-.cache/
-.parcel-cache/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
